@@ -181,7 +181,7 @@
     [self.layer addSublayer:bottomBorderLayer];
     self.bottomBorderLayer = bottomBorderLayer;
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
     
     dispatch_async(dispatch_get_main_queue(), ^{
         
